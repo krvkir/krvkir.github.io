@@ -16,14 +16,14 @@ Commands:
 
 ** <2017-07-26 Wed> Jupyterlab: enabling ipywidgets
 
-Link to [[https://github.com/jupyter-widgets/ipywidgets/tree/c2b20063a831a602f5d4948924ae74f2b73f2302/jupyterlab_widgets][the docs]].
-
+Finally managed to install it (see this [[https://github.com/jupyterlab/jupyterlab/issues/2485][issue]] on =jupyterlab='s github):
 #+BEGIN_SRC bash
-pip install jupyterlab_widgets
-jupyter labextension install --sys-prefix --py jupyterlab_widgets
-jupyter labextension enable --sys-prefix --py jupyterlab_widgets
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
 #+END_SRC
 
+** <2017-07-26 Wed> Spacemacs: switch back to vim mode from emacs mode
+
+It's just =ctrl-z=. This switches modes from emacs to vim and back.
 
 * Things to do :noexport:
 
