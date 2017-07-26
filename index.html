@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2017-07-25 Tue 16:59 -->
+<!-- 2017-07-26 Wed 22:59 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>krvkir's weblog</title>
@@ -143,6 +143,19 @@ for the JavaScript code in this tag.
 <body>
 <div id="content">
 <h1 class="title">krvkir's weblog</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgheadline3">1. Notes</a>
+<ul>
+<li><a href="#orgheadline1">1.1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2017-07-25 Tue&gt; </span></span> Jupyterlab useful links</a></li>
+<li><a href="#orgheadline2">1.2. <span class="timestamp-wrapper"><span class="timestamp">&lt;2017-07-26 Wed&gt; </span></span> Jupyterlab: enabling ipywidgets</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 <p>
 Not much here for now.
 </p>
@@ -150,9 +163,49 @@ Not much here for now.
 <p>
 Hey.
 </p>
+
+<div id="outline-container-orgheadline3" class="outline-2">
+<h2 id="orgheadline3"><span class="section-number-2">1</span> Notes</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-orgheadline1" class="outline-3">
+<h3 id="orgheadline1"><span class="section-number-3">1.1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2017-07-25 Tue&gt; </span></span> Jupyterlab useful links</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Extensions:
+</p>
+<ul class="org-ul">
+<li><a href="https://github.com/jupyterlab/jupyter-renderers.git">https://github.com/jupyterlab/jupyter-renderers.git</a></li>
+</ul>
+
+<p>
+Commands:
+</p>
+<ul class="org-ul">
+<li>all things are done via <code>jupyter labextension</code>, see <code>jupyter labextension --help-all</code> for options</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline2" class="outline-3">
+<h3 id="orgheadline2"><span class="section-number-3">1.2</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2017-07-26 Wed&gt; </span></span> Jupyterlab: enabling ipywidgets</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Link to <a href="https://github.com/jupyter-widgets/ipywidgets/tree/c2b20063a831a602f5d4948924ae74f2b73f2302/jupyterlab_widgets">the docs</a>.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-bash">pip install jupyterlab_widgets
+jupyter labextension install --sys-prefix --py jupyterlab_widgets
+jupyter labextension enable --sys-prefix --py jupyterlab_widgets
+</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2017-07-25 Tue 16:59</p>
+<p class="date">Created: 2017-07-26 Wed 22:59</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
