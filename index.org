@@ -25,6 +25,20 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 
 It's just =ctrl-z=. This switches modes from emacs to vim and back.
 
+** <2017-07-27 Thu> Dask progressbar with =tqdm=
+
+Found [[https://github.com/tqdm/tqdm/issues/278][here]].
+
+** <2017-08-04 Fri> Vimperator, customize set of symbols which appear on link hints
+
+It's often sufficient to know the names of things to find how to handle with them:
+#+BEGIN_SRC bssh
+:set hintchars=qwertasdfgzxcvb
+#+END_SRC
+
+Source: [[https://superuser.com/questions/521062/how-to-change-characters-used-for-link-hints-in-firefox-vimperator][StackOverflow]]
+
+
 * Things to do :noexport:
 
 - [ ] Configure =Jekyll= for good appearence 
